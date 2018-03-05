@@ -2,7 +2,7 @@
 //  ViewController.h
 //  CropInterface
 //
-//  Created by Swarup Mahanti on 8/24/17.
+//  Created by Swarup Mahanti on 9/23/17.
 //  Copyright © 2017 Abos Labs. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-

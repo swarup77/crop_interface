@@ -7,25 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07560F151F74F67400171849 /* WebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 07560F141F74F67400171849 /* WebBrowser.m */; };
+		07560F4A1F75B95D00171849 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 07560F491F75B95D00171849 /* NSString+URL.m */; };
+		07560F4D1F75BBD600171849 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07560F4C1F75BBD600171849 /* CoreGraphics.framework */; };
+		07560F4F1F75BBDE00171849 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07560F4E1F75BBDE00171849 /* MobileCoreServices.framework */; };
+		07560F521F75D25B00171849 /* icons8-Search-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 07560F511F75CD8100171849 /* icons8-Search-50.png */; };
+		07560F551F75D42500171849 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 07560F541F75D42500171849 /* UIImage+Tint.m */; };
+		07560F721F761F8C00171849 /* scissor_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 07560F711F761F7200171849 /* scissor_icon.png */; };
+		07560F761F76220F00171849 /* ViewCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 07560F751F76220F00171849 /* ViewCropper.m */; };
+		07560F791F76F31E00171849 /* UIView+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 07560F781F76F31E00171849 /* UIView+Image.m */; };
+		07560F7D1F76F6B800171849 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 07560F7C1F76F6B800171849 /* UIImage+Crop.m */; };
+		07560F801F770DFE00171849 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07560F7F1F770DFE00171849 /* ViewController.m */; };
+		07B87F301F7717A100606629 /* AppScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B87F2F1F7717A100606629 /* AppScheme.m */; };
 		07C128551F4FB31D008C434B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C128541F4FB31D008C434B /* AppDelegate.m */; };
-		07C128581F4FB31D008C434B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C128571F4FB31D008C434B /* ViewController.m */; };
+		07C128581F4FB31D008C434B /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C128571F4FB31D008C434B /* BrowserViewController.m */; };
 		07C1285B1F4FB31D008C434B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C128591F4FB31D008C434B /* Main.storyboard */; };
 		07C1285D1F4FB31D008C434B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C1285C1F4FB31D008C434B /* Assets.xcassets */; };
 		07C128601F4FB31D008C434B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C1285E1F4FB31D008C434B /* LaunchScreen.storyboard */; };
 		07C128631F4FB31D008C434B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C128621F4FB31D008C434B /* main.m */; };
+		07C1288A1F4FB3D3008C434B /* CropInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C128831F4FB3D3008C434B /* CropInterface.m */; };
+		07C1288B1F4FB3D3008C434B /* CropControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C128861F4FB3D3008C434B /* CropControl.m */; };
+		07C1288C1F4FB3D3008C434B /* FlexRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C128871F4FB3D3008C434B /* FlexRectangle.m */; };
+		07C1288D1F4FB3D3008C434B /* CropRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C128881F4FB3D3008C434B /* CropRectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07560F131F74F67400171849 /* WebBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebBrowser.h; sourceTree = "<group>"; };
+		07560F141F74F67400171849 /* WebBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebBrowser.m; sourceTree = "<group>"; };
+		07560F481F75B95D00171849 /* NSString+URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
+		07560F491F75B95D00171849 /* NSString+URL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
+		07560F4C1F75BBD600171849 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07560F4E1F75BBDE00171849 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		07560F511F75CD8100171849 /* icons8-Search-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Search-50.png"; sourceTree = "<group>"; };
+		07560F531F75D42500171849 /* UIImage+Tint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		07560F541F75D42500171849 /* UIImage+Tint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		07560F711F761F7200171849 /* scissor_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissor_icon.png; sourceTree = "<group>"; };
+		07560F741F76220F00171849 /* ViewCropper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewCropper.h; sourceTree = "<group>"; };
+		07560F751F76220F00171849 /* ViewCropper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewCropper.m; sourceTree = "<group>"; };
+		07560F771F76F31E00171849 /* UIView+Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Image.h"; sourceTree = "<group>"; };
+		07560F781F76F31E00171849 /* UIView+Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Image.m"; sourceTree = "<group>"; };
+		07560F7B1F76F6B800171849 /* UIImage+Crop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
+		07560F7C1F76F6B800171849 /* UIImage+Crop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
+		07560F7E1F770DFE00171849 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07560F7F1F770DFE00171849 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07B496921F77AC6F00F9AF1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		07B87F2E1F7717A100606629 /* AppScheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppScheme.h; sourceTree = "<group>"; };
+		07B87F2F1F7717A100606629 /* AppScheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppScheme.m; sourceTree = "<group>"; };
 		07C128501F4FB31D008C434B /* CropInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C128531F4FB31D008C434B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07C128541F4FB31D008C434B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		07C128561F4FB31D008C434B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		07C128571F4FB31D008C434B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07C128561F4FB31D008C434B /* BrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		07C128571F4FB31D008C434B /* BrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 		07C1285A1F4FB31D008C434B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07C1285C1F4FB31D008C434B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07C1285F1F4FB31D008C434B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07C128611F4FB31D008C434B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07C128621F4FB31D008C434B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07C128821F4FB3D3008C434B /* CropControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropControl.h; sourceTree = "<group>"; };
+		07C128831F4FB3D3008C434B /* CropInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropInterface.m; sourceTree = "<group>"; };
+		07C128841F4FB3D3008C434B /* CropInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropInterface.h; sourceTree = "<group>"; };
+		07C128851F4FB3D3008C434B /* CropRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropRectangle.h; sourceTree = "<group>"; };
+		07C128861F4FB3D3008C434B /* CropControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropControl.m; sourceTree = "<group>"; };
+		07C128871F4FB3D3008C434B /* FlexRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexRectangle.m; sourceTree = "<group>"; };
+		07C128881F4FB3D3008C434B /* CropRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropRectangle.m; sourceTree = "<group>"; };
+		07C128891F4FB3D3008C434B /* FlexRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexRectangle.h; sourceTree = "<group>"; };
+		07C128A41F50B67D008C434B /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +79,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07560F4F1F75BBDE00171849 /* MobileCoreServices.framework in Frameworks */,
+				07560F4D1F75BBD600171849 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07560F4B1F75BBD500171849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07560F4E1F75BBDE00171849 /* MobileCoreServices.framework */,
+				07560F4C1F75BBD600171849 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07560F501F75CB3B00171849 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				07560F511F75CD8100171849 /* icons8-Search-50.png */,
+				07560F711F761F7200171849 /* scissor_icon.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		07560F731F761FAB00171849 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				07560F131F74F67400171849 /* WebBrowser.h */,
+				07560F141F74F67400171849 /* WebBrowser.m */,
+				07560F481F75B95D00171849 /* NSString+URL.h */,
+				07560F491F75B95D00171849 /* NSString+URL.m */,
+			);
+			path = Browser;
+			sourceTree = "<group>";
+		};
+		07560F7A1F76F37900171849 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07C128A41F50B67D008C434B /* Globals.h */,
+				07560F531F75D42500171849 /* UIImage+Tint.h */,
+				07560F541F75D42500171849 /* UIImage+Tint.m */,
+				07560F771F76F31E00171849 /* UIView+Image.h */,
+				07560F781F76F31E00171849 /* UIView+Image.m */,
+				07560F7B1F76F6B800171849 /* UIImage+Crop.h */,
+				07560F7C1F76F6B800171849 /* UIImage+Crop.m */,
+				07B87F2E1F7717A100606629 /* AppScheme.h */,
+				07B87F2F1F7717A100606629 /* AppScheme.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		07C128471F4FB31D008C434B = {
 			isa = PBXGroup;
 			children = (
+				07B496921F77AC6F00F9AF1A /* README.md */,
 				07C128521F4FB31D008C434B /* CropInterface */,
 				07C128511F4FB31D008C434B /* Products */,
+				07560F4B1F75BBD500171849 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +153,40 @@
 		07C128521F4FB31D008C434B /* CropInterface */ = {
 			isa = PBXGroup;
 			children = (
+				07560F7A1F76F37900171849 /* Extensions */,
+				07560F731F761FAB00171849 /* Browser */,
+				07560F501F75CB3B00171849 /* Icons */,
+				07C128811F4FB3C3008C434B /* Cropper */,
+				07560F7E1F770DFE00171849 /* ViewController.h */,
+				07560F7F1F770DFE00171849 /* ViewController.m */,
+				07C128561F4FB31D008C434B /* BrowserViewController.h */,
+				07C128571F4FB31D008C434B /* BrowserViewController.m */,
+				07C128591F4FB31D008C434B /* Main.storyboard */,
 				07C128531F4FB31D008C434B /* AppDelegate.h */,
 				07C128541F4FB31D008C434B /* AppDelegate.m */,
-				07C128561F4FB31D008C434B /* ViewController.h */,
-				07C128571F4FB31D008C434B /* ViewController.m */,
-				07C128591F4FB31D008C434B /* Main.storyboard */,
 				07C1285C1F4FB31D008C434B /* Assets.xcassets */,
 				07C1285E1F4FB31D008C434B /* LaunchScreen.storyboard */,
 				07C128611F4FB31D008C434B /* Info.plist */,
 				07C128621F4FB31D008C434B /* main.m */,
 			);
 			path = CropInterface;
+			sourceTree = "<group>";
+		};
+		07C128811F4FB3C3008C434B /* Cropper */ = {
+			isa = PBXGroup;
+			children = (
+				07560F741F76220F00171849 /* ViewCropper.h */,
+				07560F751F76220F00171849 /* ViewCropper.m */,
+				07C128841F4FB3D3008C434B /* CropInterface.h */,
+				07C128831F4FB3D3008C434B /* CropInterface.m */,
+				07C128821F4FB3D3008C434B /* CropControl.h */,
+				07C128861F4FB3D3008C434B /* CropControl.m */,
+				07C128851F4FB3D3008C434B /* CropRectangle.h */,
+				07C128881F4FB3D3008C434B /* CropRectangle.m */,
+				07C128891F4FB3D3008C434B /* FlexRectangle.h */,
+				07C128871F4FB3D3008C434B /* FlexRectangle.m */,
+			);
+			path = Cropper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07560F721F761F8C00171849 /* scissor_icon.png in Resources */,
+				07560F521F75D25B00171849 /* icons8-Search-50.png in Resources */,
 				07C128601F4FB31D008C434B /* LaunchScreen.storyboard in Resources */,
 				07C1285D1F4FB31D008C434B /* Assets.xcassets in Resources */,
 				07C1285B1F4FB31D008C434B /* Main.storyboard in Resources */,
@@ -141,9 +261,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C128581F4FB31D008C434B /* ViewController.m in Sources */,
+				07560F801F770DFE00171849 /* ViewController.m in Sources */,
+				07C128581F4FB31D008C434B /* BrowserViewController.m in Sources */,
+				07560F7D1F76F6B800171849 /* UIImage+Crop.m in Sources */,
+				07B87F301F7717A100606629 /* AppScheme.m in Sources */,
+				07560F761F76220F00171849 /* ViewCropper.m in Sources */,
+				07560F151F74F67400171849 /* WebBrowser.m in Sources */,
+				07560F551F75D42500171849 /* UIImage+Tint.m in Sources */,
+				07560F791F76F31E00171849 /* UIView+Image.m in Sources */,
 				07C128631F4FB31D008C434B /* main.m in Sources */,
+				07C1288C1F4FB3D3008C434B /* FlexRectangle.m in Sources */,
 				07C128551F4FB31D008C434B /* AppDelegate.m in Sources */,
+				07C1288A1F4FB3D3008C434B /* CropInterface.m in Sources */,
+				07C1288D1F4FB3D3008C434B /* CropRectangle.m in Sources */,
+				07560F4A1F75B95D00171849 /* NSString+URL.m in Sources */,
+				07C1288B1F4FB3D3008C434B /* CropControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 68Z48BWJ2X;
+				DEVELOPMENT_TEAM = 5W4D6A6C6J;
 				INFOPLIST_FILE = CropInterface/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.CropInterface;
@@ -290,7 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 68Z48BWJ2X;
+				DEVELOPMENT_TEAM = 5W4D6A6C6J;
 				INFOPLIST_FILE = CropInterface/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.CropInterface;
@@ -318,6 +450,7 @@
 				07C128681F4FB31D008C434B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
